@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  year: 1
+  north_america_sales: 9.99
+  publisher_company: one
+
+two:
+  name: MyString
+  year: 1
+  north_america_sales: 9.99
+  publisher_company: two
