@@ -22,3 +22,16 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+Games Table
+- id, name, year, north_america_sales, publisher_id
+
+Publisher Table ( 1 to many)
+- id, name
+
+Game_Genres Table (joinger table maybe?)
+- game_id, genre_id
+
+Genres Table (many to many with games)
+-id , name
