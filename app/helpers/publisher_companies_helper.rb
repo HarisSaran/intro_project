@@ -1,0 +1,2 @@
+module PublisherCompaniesHelper
+end
