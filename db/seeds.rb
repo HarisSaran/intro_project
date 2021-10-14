@@ -19,5 +19,21 @@ csv_data = File.read(filename)
 games = CSV.parse(csv_data, headers: true, encoding: "utf-8")
 
 games.each do |m|
-  puts m["Game"]
+  # puts m["Game"]
+  publisher_company = PublisherCompany.find_or_create_by(name: m["Publisher"])
+
+  if publisher_company && publisher_company.valid?
+    game = publisher_company.games.create(
+      name:                m["Game"],
+      year:                m["Year"],
+      north_america_sales: m["North America"]
+    )
+    puts "Game invalid #{m['Game']}" unless game&.valid?
+
+  else
+    puts "Not Valid Publisher company, #{m['Publisher']} for the game #{m['Game']}"
+  end
 end
+
+puts "publisher comps : #{PublisherCompany.count}"
+puts "games comps : #{Game.count}"
