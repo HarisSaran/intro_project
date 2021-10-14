@@ -1,13 +1,38 @@
-<h2>The Best PlayStation 4 Games Of All Time!</h2>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+    <%# ------------------------------------------- %>
+      <h2 class="title">The Best PlayStation 4 Games Of All Time!
+      </h2>
+       <figure class="image is-128x128 image is-inline-block" >
+          <img src="https://assets1.ignimgs.com/2021/04/22/playstation-studios-1619090080230_160w.jpg?width=1280">
+      </figure>
 
-<ol>
-<%# This creates the list of games and the asociated production company %>
-<% @games.each do | game |%>
-<li><%= link_to game.name, game %>
-top game, was created by the amazing <%= link_to game.publisher_company.name, game.publisher_company %>
- and has <%= game.north_america_sales %> million sales in North America </li>
-<% end %>
+        <ul>
+        <%# This creates the list of games and the asociated production company %>
+          <% @games.each do | game |%>
+            <li><button class="button is-warning"><%= link_to game.name, game %></button>
+            top game, was created by the amazing <button class="button is-warning"><%= link_to game.publisher_company.name, game.publisher_company %></button>
+            and has<strong> <%= game.north_america_sales %> </strong> million sales in North America </li>
+          <% end %>
+        </ul>
+    <%# ------------------------------------------- %>
+  </section>
+  </body>
+</html>
 
-</ol>
+
+
+
+
+
 
 
