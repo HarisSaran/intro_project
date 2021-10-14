@@ -1,2 +1,13 @@
-<h1>Games#index</h1>
-<p>Find me in app/views/games/index.html.erb</p>
+<h2>The Best PlayStation 4 Games Of All Time!</h2>
+
+<ol>
+<%# This creates the list of games and the asociated production company %>
+<% @games.each do | game |%>
+<li><%= link_to game.name, game %>
+top game, was created by the amazing <%= link_to game.publisher_company.name, game.publisher_company %>
+ and has <%= game.north_america_sales %> million sales in North America </li>
+<% end %>
+
+</ol>
+
+
