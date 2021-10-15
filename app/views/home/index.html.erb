@@ -5,8 +5,15 @@
     <%# loop through each game, make a link for that game, see the production company.. %>
       <% @games.each do | game |  %>
       <li>
-        <%= link_to game.name, game %>
+       <button class="button is-link is-light"> <%= link_to game.name, game %></button>
         <em>(<%= game.publisher_company.name%>)</em>
+
+        <progress class="progress is-danger" value="<%= game.north_america_sales %>" max=6.16>
+          <%= game.north_america_sales%>
+        </progress>
+
+
+
         </li>
       <% end  %>
     </ol>
