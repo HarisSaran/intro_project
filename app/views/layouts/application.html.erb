@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>HarisProject</title>
+  <%# append yield an dpass it a value that we declared... if there is a html_title for a game we will display that on the top tab if not Haris games project will display  %>
+    <title><%= yield(:html_title) + "-" if content_for?(:html_title)%> Haris Games Project! </title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
