@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  before_action :set_page, only: %i[show edit update destroy]
+  before_action :set_page, only: %i[edit update destroy]
   http_basic_authenticate_with name: "haris", password: "Password01!", except: [:show]
 
   # GET /pages or /pages.json
@@ -8,7 +8,9 @@ class PagesController < ApplicationController
   end
 
   # GET /pages/1 or /pages/1.json
-  def show; end
+  def permalink
+    @page = Page.find_by(permalink: params[:permalink])
+  end
 
   # GET /pages/new
   def new
