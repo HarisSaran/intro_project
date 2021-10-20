@@ -28,6 +28,14 @@
 
     <%= yield %>
 
+    <% if controller_name == 'home' %>
+      <%# <h1>What a Beautiful Page!</h1> %>
+       <%= render partial: 'common/my_game'%>
+
+    <% else %>
+      <%= render partial: 'common/footer' %>
+    <% end %>
+
     </section>
   </body>
 </html>
