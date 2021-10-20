@@ -8,7 +8,7 @@
 
 require "csv"
 
-Page.delet_all
+Page.delete_all
 Game.delete_all
 PublisherCompany.delete_all
 
@@ -38,14 +38,13 @@ end
 
 Page.create(
   title:     "Contact Me",
-  content:   "These are the top PS4 games sold this year, if you would like more information about the games feel free to browse the site",
+  content:   "These are the top PS4 games sold this year.",
   permalink: "contact"
 )
 
 Page.create(
   title:     "About the data",
-  content:   "The data you see on this site was provided by Kaggle and represents PS4 Video Game Sales within North America, It is organized by
-  top sales within North America.  You can find find further information on the publisher of each game and the total sales of each game. db>seeds",
+  content:   "The data on this site was provided by Kaggle and represents PS4 Video Game Sales.",
   permalink: "about_the_data"
 )
 
