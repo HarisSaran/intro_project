@@ -1,43 +1,8 @@
 <%# can use this for breadcrumb idea... right now used in application.html do display game name at top.. %>
 <% content_for(:html_title) { @game.name} %>
 
+<%# we can edit what this looks like in the _game.html.erb %>
 
-<h2 class="title is-3">Game Info</h2>
-<%#  input all details of the game here %>
+<%= render partial: @game, locals: {show_link: false} %>
 
-<article class ="message is-danger">
-  <div class="message-header">
-  <p>Game Name: <%= @game.name%>   chng in views>games>show</p>
-  </div>
-
-  <%# <div class="message-body">
-  </div> %>
-</article>
-
-<article class ="message is-primary">
-  <div class="message-header">
-  <p>Year Released: <%= @game.year%> </p>
-  </div>
-
-  <%# <div class="message-body">
-  </div> %>
-</article>
-
-<article class ="message is-success">
-  <div class="message-header">
-  <p>Sales in North America: <%= @game.north_america_sales%> million </p>
-  </div>
-
-  <%# <div class="message-body">
-  </div> %>
-</article>
-
-<article class ="message is-link">
-  <div class="message-header">
-  <p>Publisher: <%= link_to @game.publisher_company.name, @game.publisher_company %> </p>
-  </div>
-
-  <%# <div class="message-body">
-  </div> %>
-</article>
 

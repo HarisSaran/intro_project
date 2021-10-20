@@ -10,20 +10,12 @@
   <section class="section">
     <div class="container"> %>
     <%# ------------------------------------------- %>
-      <h2 class="title">The Best PlayStation 4 Games Of All Time! Chg in views>games>index
-      </h2>
+      <h2 class="title">The Best PlayStation 4 Games Of All Time! Chg in views>games>index</h2>
        <figure class="image is-128x128 image is-inline-block" >
           <img src="https://assets1.ignimgs.com/2021/04/22/playstation-studios-1619090080230_160w.jpg?width=1280">
       </figure>
 
-        <ul>
-        <%# This creates the list of games and the asociated production company %>
-          <% @games.each do | game |%>
-            <li><button class="button is-warning"><%= link_to game.name, game %></button>
-            top game, was created by the amazing <button class="button is-warning"><%= link_to game.publisher_company.name, game.publisher_company %></button>
-            and has<strong> <%= game.north_america_sales %> </strong> million sales in North America </li>
-          <% end %>
-        </ul>
+       <%= render partial: @games, locals: {show_link: true} %>
     <%# ------------------------------------------- %>
   <%# </section>
   </body>

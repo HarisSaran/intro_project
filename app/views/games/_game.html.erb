@@ -1,0 +1,44 @@
+<h2 class="title is-3">Game Info</h2>
+<%#  input all details of the game here %>
+
+<article class ="message is-danger">
+  <div class="message-header">
+      <% if show_link%>
+        <p>Game Name: <%= link_to game.name, game%></p>
+      <% else %>
+       <p>Game Name: <%= game.name %></p>
+      <%end%>
+  </div>
+
+  <%# <div class="message-body">
+  </div> %>
+</article>
+
+<article class ="message is-primary">
+  <div class="message-header">
+  <p>Year Released: <%= game.year%> </p>
+  </div>
+
+  <%# <div class="message-body">
+  </div> %>
+</article>
+
+<article class ="message is-success">
+  <div class="message-header">
+  <p>Sales in North America: <%= game.north_america_sales%> million </p>
+  </div>
+
+  <%# <div class="message-body">
+  </div> %>
+</article>
+
+<article class ="message is-link">
+  <div class="message-header">
+  <p>Publisher: <%= link_to game.publisher_company.name, game.publisher_company %> </p>
+  </div>
+
+  <%# <div class="message-body">
+  </div> %>
+</article>
+
+<hr>
