@@ -12,8 +12,6 @@
           <%= game.north_america_sales%>
         </progress>
 
-
-
         </li>
       <% end  %>
     </ol>
@@ -22,5 +20,21 @@
 
   <div class="column">
   <h2 class="title is-2"> Most Games Published</h2>
+      <ol class=ml-5>
+    <%# loop through each game, make a link for that game, see the production company.. %>
+      <% @publisher_companies.each do | publisher_company |  %>
+      <li>
+       <button class="button is-link is-light"> <%= link_to publisher_company.name, publisher_company %></button>
+        <em>(<%= pluralize publisher_company.game_count, "Best Game"%> Best Games   find in views>home>index)</em>
+
+        <progress class="progress is-danger" value="<%= publisher_company.game_count %>" max=27>
+          <%= publisher_company.game_count%>
+        </progress>
+
+        </li>
+      <% end  %>
+    </ol>
   </div>
 </div>
+
+
