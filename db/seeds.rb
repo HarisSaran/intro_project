@@ -8,6 +8,7 @@
 
 require "csv"
 
+Page.delet_all
 Game.delete_all
 PublisherCompany.delete_all
 
@@ -34,6 +35,19 @@ games.each do |m|
     puts "Not Valid Publisher company, #{m['Publisher']} for the game #{m['Game']}"
   end
 end
+
+Page.create(
+  title:     "Contact Me",
+  content:   "These are the top PS4 games sold this year, if you would like more information about the games feel free to browse the site",
+  permalink: "contact"
+)
+
+Page.create(
+  title:     "About the data",
+  content:   "The data you see on this site was provided by Kaggle and represents PS4 Video Game Sales within North America, It is organized by
+  top sales within North America.  You can find find further information on the publisher of each game and the total sales of each game. db>seeds",
+  permalink: "about_the_data"
+)
 
 puts "publisher comps : #{PublisherCompany.count}"
 puts "games comps : #{Game.count}"
