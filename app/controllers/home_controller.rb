@@ -8,7 +8,7 @@ class HomeController < ApplicationController
                                            .left_joins(:games)
                                            .group("publisher_companies.id")
                                            .order("game_count DESC")
-    #  .limit(10)   add this if we want just the top 10!
+                                           .limit(20)
   end
 end
 # SELECT COUNT(*) AS game_count, publisher_companies.id, publisher_companies.name
