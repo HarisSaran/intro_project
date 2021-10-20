@@ -1,0 +1,9 @@
+ <li>
+       <button class="button is-link is-light"> <%= link_to publisher_company.name, publisher_company %></button>
+        <em>(<%= pluralize publisher_company.game_count, "Best Game"%> Best Games   find in views>home>index)</em>
+
+        <progress class="progress is-danger" value="<%= publisher_company.game_count %>" max=27>
+          <%= publisher_company.game_count%>
+        </progress>
+
+ </li>
