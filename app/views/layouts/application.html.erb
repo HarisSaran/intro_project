@@ -1,3 +1,5 @@
+<%#  What ever we want to be on everysingle page we put here %>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -17,10 +19,12 @@
     <%# Headercan go here, all the pages will have this.... %>
     <section class="section">
       <div class="container">
-        <h1 class="title is-1">Change this in views>layouts>application.html </h1>
+        <h1 class="title is-1"><%= link_to 'Top Games views>layouts>application.html', root_path %></h1>
         <%# Attempt Bread Crumb..  just delete <%#  %>
         <%# <h3> Haris Games Project! > <%= yield(:html_title) + "-" if content_for?(:html_title)%>
         </div>
+
+
 
     <%= yield %>
 
