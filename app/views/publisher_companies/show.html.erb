@@ -1,3 +1,16 @@
 <p>Find me in app/views/publisher_companies/show.html.erb</p>
 
 <h2 class="title is-2"><%= @publisher_company.name%></h2>
+
+<p class='mb-5'>
+  Publisher created <%= @publisher_company.games.count %> from top games sold
+</p>
+
+<h3 class='title is-3'> Games made by <%= @publisher_company.name%></h3>
+  <ul>
+
+  <%# we can also use render partial for publisher companies here for a different look %>
+    <% @publisher_company.games.each do |game|%>
+      <li><%= link_to game.name, game %> has sold <%= game.north_america_sales %> million games!</li>
+    <% end %>
+  </ul>
