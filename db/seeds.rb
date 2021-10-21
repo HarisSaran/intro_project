@@ -14,7 +14,7 @@ Genre.delete_all
 Game.delete_all
 PublisherCompany.delete_all
 
-filename = Rails.root.join("db/GamesSales.csv")
+filename = Rails.root.join("db/GamesSales2.csv")
 
 puts "loading games from CSV: #{filename}"
 
