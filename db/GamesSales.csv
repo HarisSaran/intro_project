@@ -1,19 +1,19 @@
 Game,Year,Genre,Publisher,North America,Europe,Japan,Rest of World,Global
 Grand Theft Auto V,2014,Action,Rockstar Games,6.06,9.71,0.6,3.02,19.39
 Call of Duty: Black Ops 3,2015,"Action, Shooter",Activision,6.18,6.05,0.41,2.44,15.09
-Red Dead Redemption 2,2018,Action-Adventure,Rockstar Games,5.26,6.21,0.21,2.26,13.94
+Red Dead Redemption 2,2018,"Action, Adventure",Rockstar Games,5.26,6.21,0.21,2.26,13.94
 Call of Duty: WWII,2017,"Action, Shooter",Activision,4.67,6.21,0.4,2.12,13.4
 FIFA 18,2017,"Sports, Action",EA Sports,1.27,8.64,0.15,1.73,11.8
 FIFA 17,2016,"Sports, Action",Electronic Arts,1.26,7.95,0.12,1.61,10.94
 Uncharted (PS4),2016,Action,Sony Interactive Entertainment,4.49,3.93,0.21,1.7,10.33
-Spider-Man (PS4),2018,Action-Adventure,Sony Interactive Entertainment,3.64,3.39,0.32,1.41,8.76
+Spider-Man (PS4),2018,"Action, Adventure, Shooter",Sony Interactive Entertainment,3.64,3.39,0.32,1.41,8.76
 Call of Duty: Infinite Warfare,2016,"Action, Shooter",Activision,3.11,3.83,0.19,1.36,8.48
 Fallout 4,2015,Role-Playing,Bethesda Softworks,2.91,3.97,0.27,1.34,8.48
 FIFA 16,2015,"Sports, Action",EA Sports,1.15,5.77,0.07,1.23,8.22
 Star Wars Battlefront 2015,2015,"Action, Shooter",Electronic Arts,3.31,3.19,0.23,1.3,8.03
 Call of Duty: Advanced Warfare,2014,"Action, Shooter",Activision,2.84,3.34,0.14,1.22,7.53
 Battlefield 1,2016,"Action, Shooter",Electronic Arts,2.2,3.65,0.29,1.12,7.26
-The Last of Us,2014,Action-Adventure,Sony Computer Entertainment,2.7,2.86,0.11,1.1,6.77
+The Last of Us,2014,"Action, Adventure, Shooter",Sony Computer Entertainment,2.7,2.86,0.11,1.1,6.77
 MineCraft,2014,Misc,Sony Computer Entertainment,1.89,3.13,0.35,0.96,6.33
 FIFA 15,2014,"Sports, Action",EA Sports,0.83,4.49,0.05,0.94,6.32
 God of War (PS4),2018,Action,Sony Interactive Entertainment,2.83,2.17,0.13,1.02,6.15
@@ -28,7 +28,7 @@ Overwatch,2016,"Action, Shooter",Blizzard Entertainment,1.84,1.8,0.17,0.73,4.54
 Star Wars Battlefront II (2017),2017,"Action, Shooter",Electronic Arts,1.7,1.99,0.12,0.73,4.53
 Tom Clancy's The Division,2016,"Action, Shooter",Ubisoft,1.49,2.04,0.16,0.69,4.37
 Tom Clancy's Rainbow Six: Siege,2015,"Action, Shooter",Ubisoft,1.29,2.06,0.36,0.64,4.36
-Watch Dogs,2014,Action-Adventure,Ubisoft,1.4,2.13,0.11,0.68,4.32
+Watch Dogs,2014,"Action, Adventure, Shooter",Ubisoft,1.4,2.13,0.11,0.68,4.32
 Call of Duty: Ghosts,2013,"Action, Shooter",Activision,1.79,1.64,0.05,0.69,4.17
 Assassin's Creed: Unity,2014,Action,Ubisoft,1.25,2.16,0.09,0.65,4.14
 Destiny 2,2017,"Action, Shooter",Activision,1.92,1.44,0.1,0.69,4.14
@@ -50,16 +50,16 @@ Resident Evil VII: Biohazard,2017,Action,Capcom,0.88,1.56,0.41,0.46,3.31
 Madden NFL 16,2015,"Sports, Action",EA Sports,2.39,0.31,0,0.61,3.3
 Madden NFL 17,2016,"Sports, Action",EA Sports,2.3,0.37,0,0.6,3.28
 Middle-Earth: Shadow of Mordor,2014,Action,Warner Bros. Interactive Entertainment,1.03,1.6,0.05,0.51,3.19
-Assassin's Creed IV: Black Flag,2013,Action-Adventure,Ubisoft,1.07,1.55,0.06,0.51,3.19
+Assassin's Creed IV: Black Flag,2013,"Action, Adventure, Shooter",Ubisoft,1.07,1.55,0.06,0.51,3.19
 Tom Clancy's Ghost Recon Wildlands,2017,"Action, Shooter",Ubisoft,1.07,1.35,0.22,0.47,3.12
 Bloodborne,2015,Role-Playing,Sony Computer Entertainment,1.3,1.05,0.28,0.48,3.11
 Metal Gear Solid V: The Phantom Pain,2015,Action,Konami Digital Entertainment,0.97,1.15,0.5,0.42,3.04
 Killzone: Shadow Fall,2013,"Action, Shooter",Sony Computer Entertainment,0.89,1.58,0.08,0.47,3.02
-inFAMOUS: Second Son,2014,Action-Adventure,Sony Computer Entertainment,1.35,1.09,0.07,0.5,3.01
+inFAMOUS: Second Son,2014,"Action, Adventure",Sony Computer Entertainment,1.35,1.09,0.07,0.5,3.01
 Doom (2016),2016,"Action, Shooter",Bethesda Softworks,0.93,1.48,0.04,0.46,2.92
-Mafia III,2016,Action-Adventure,2K Games,0.72,1.67,0.04,0.44,2.87
+Mafia III,2016,"Action, Adventure",2K Games,0.72,1.67,0.04,0.44,2.87
 Diablo III,2014,Role-Playing,Blizzard Entertainment,0.83,1.48,0.08,0.44,2.82
-Far Cry: Primal,2016,Action-Adventure,Ubisoft,0.63,1.61,0.07,0.41,2.73
+Far Cry: Primal,2016,"Action, Adventure, Shooter",Ubisoft,0.63,1.61,0.07,0.41,2.73
 Need for Speed (2015),2015,Racing,Electronic Arts,0.59,1.66,0.06,0.41,2.72
 Madden NFL 18,2017,"Sports, Action",EA Sports,1.73,0.42,0,0.47,2.62
 NBA 2K15,2014,"Sports, Action",2K Sports,1.49,0.55,0.01,0.44,2.49
@@ -69,7 +69,7 @@ Ratchet & Clank (2016),2016,Platform,Sony Interactive Entertainment,0.97,0.97,0.
 DriveClub,2014,Racing,Sony Computer Entertainment,0.37,1.63,0.02,0.36,2.37
 Uncharted: The Lost Legacy,2017,Action,Sony Interactive Entertainment,0.58,1.38,0.04,0.36,2.37
 Dragon Age III: Inquisition,2014,Role-Playing,Electronic Arts,1.07,0.8,0.08,0.38,2.34
-No Man's Sky,2016,Action-Adventure,Hello Games,0.89,0.97,0.04,0.37,2.26
+No Man's Sky,2016,"Action, Adventure, Shooter",Hello Games,0.89,0.97,0.04,0.37,2.26
 Madden NFL 15,2014,"Sports, Action",EA Sports,1.58,0.25,0,0.41,2.25
 Need for Speed: Payback,2017,Racing,Electronic Arts,0.62,1.18,0.04,0.34,2.18
 Destiny: The Taken King,2015,"Action, Shooter",Activision,0.97,0.8,0.05,0.36,2.18
@@ -82,12 +82,12 @@ The Elder Scrolls Online,2015,MMO,Bethesda Softworks,0.74,0.98,0,0.33,2.05
 Middle-Earth: Shadow of War,2017,Action,Warner Bros. Interactive Entertainment,0.82,0.84,0.06,0.33,2.04
 Dragon Quest XI,2017,Role-Playing,Square Enix,0.29,0.22,1.43,0.1,2.04
 Rocket League,2016,"Sports, Action",505 Games,0.37,1.34,0,0.31,2.02
-Just Cause 3,2015,Action-Adventure,Square Enix,0.53,1.07,0.09,0.3,1.98
+Just Cause 3,2015,"Action, Adventure, Shooter",Square Enix,0.53,1.07,0.09,0.3,1.98
 Dishonored 2,2016,"Action, Adventure",Bethesda Softworks,0.62,1.02,0.01,0.31,1.97
 Lego Marvel Super Heroes,2013,"Action, Adventure",Warner Bros. Interactive Entertainment,0.59,1,0.01,0.3,1.91
 Until Dawn,2015,Adventure,Sony Computer Entertainment,0.62,0.92,0.06,0.3,1.9
 Knack,2013,Platform,Sony Computer Entertainment,0.45,0.77,0.42,0.23,1.88
-The Evil Within,2014,"Action, Adventure",Bethesda Softworks,0.56,0.9,0.11,0.28,1.86
+The Evil Within,2014,"Action, Adventure, Shooter",Bethesda Softworks,0.56,0.9,0.11,0.28,1.86
 The Crew,2014,Racing,Ubisoft,0.44,1.04,0.03,0.27,1.79
 Kingdom Hearts 1.5 + 2.5 Remix,2017,Role-Playing,Square Enix,0.75,0.51,0.23,0.26,1.75
 For Honor,2017,Action,Ubisoft,0.73,0.66,0.07,0.28,1.75
@@ -101,7 +101,7 @@ Wolfenstein: The New Order,2014,"Action, Shooter",Bethesda Softworks,0.48,0.84,0
 Detroit: Become Human,2018,Adventure,Sony Interactive Entertainment,0.55,0.67,0.12,0.24,1.57
 Naruto Shippuden: Ultimate Ninja Storm 4,2016,Fighting,Namco Bandai Games,0.71,0.47,0.12,0.24,1.54
 NBA 2K14,2013,"Sports, Action",2K Sports,0.91,0.35,0.01,0.27,1.54
-Tomb Raider (2013),2014,Action-Adventure,Square Enix,0.47,0.74,0.06,0.23,1.51
+Tomb Raider (2013),2014,"Action, Adventure, Shooter",Square Enix,0.47,0.74,0.06,0.23,1.51
 Dragon Ball: Xenoverse 2,2016,Action,Namco Bandai Games,0.54,0.59,0.14,0.23,1.5
 Rayman Legends,2014,Platform,Ubisoft,0.22,1.05,0,0.23,1.5
 Mass Effect: Andromeda,2017,Role-Playing,Electronic Arts,0.58,0.67,0,0.25,1.49
@@ -111,17 +111,17 @@ The Sims 4,2017,Simulation,Electronic Arts,0.44,0.72,0.01,0.22,1.39
 Street Fighter V,2016,Fighting,Capcom,0.64,0.42,0.12,0.22,1.39
 Wolfenstein II: The New Colossus,2017,"Action, Shooter",Bethesda Softworks,0.55,0.58,0.01,0.22,1.36
 WWE 2K18,2017,"Sports, Action",2K Sports,0.45,0.67,0,0.22,1.33
-Lego Star Wars: The Force Awakens,2016,Action-Adventure,Warner Bros. Interactive Entertainment,0.3,0.78,0.02,0.2,1.31
+Lego Star Wars: The Force Awakens,2016,"Action, Adventure, Shooter",Warner Bros. Interactive Entertainment,0.3,0.78,0.02,0.2,1.31
 EA Sports UFC 2,2016,"Sports, Action",EA Sports,0.44,0.65,0,0.21,1.31
-The Last Guardian,2016,Action-Adventure,Sony Interactive Entertainment,0.4,0.58,0.13,0.19,1.29
+The Last Guardian,2016,"Action, Adventure",Sony Interactive Entertainment,0.4,0.58,0.13,0.19,1.29
 WWE 2K16,2015,"Sports, Action",Take-Two Interactive,0.43,0.65,0,0.21,1.29
 Borderlands: The Handsome Collection,2015,"Action, Shooter",2K Games,0.69,0.34,0.03,0.22,1.28
 Project CARS,2015,Racing,Bandai Namco Games,0.29,0.76,0.04,0.19,1.28
 WWE 2K17,2016,"Sports, Action",2K Games,0.32,0.7,0,0.19,1.22
 Guitar Hero Live,2015,Music,Activision,0.52,0.49,0,0.2,1.21
-Metal Gear Solid: Ground Zeroes,2014,Action-Adventure,Konami Digital Entertainment,0.36,0.5,0.17,0.17,1.2
+Metal Gear Solid: Ground Zeroes,2014,"Action, Adventure",Konami Digital Entertainment,0.36,0.5,0.17,0.17,1.2
 Mad Max (2013),2015,Action,Warner Bros. Interactive Entertainment,0.38,0.59,0.05,0.19,1.2
-Shadow of the Colossus,2018,Action-Adventure,Sony Interactive Entertainment,0.44,0.52,0.05,0.19,1.2
+Shadow of the Colossus,2018,"Action, Adventure, Shooter",Sony Interactive Entertainment,0.44,0.52,0.05,0.19,1.2
 Kingdom Hearts HD 2.8 Final Chapter Prologue,2017,Role-Playing,Square Enix,0.57,0.25,0.2,0.17,1.2
 Dragon Ball: XenoVerse,2015,Fighting,Namco Bandai Games,0.33,0.55,0.14,0.17,1.19
 LEGO Dimensions,2015,Action,Warner Bros. Interactive Entertainment,0.48,0.5,0,0.2,1.18
@@ -150,9 +150,9 @@ MLB 16: The Show,2016,"Sports, Action",Sony Computer Entertainment,0.78,0,0,0.18
 Lego Batman 3: Beyond Gotham,2014,Action,Warner Bros. Interactive Entertainment,0.37,0.42,0,0.16,0.94
 Final Fantasy X/X-2 HD Remaster,2015,Role-Playing,Square Enix,0.34,0.36,0.07,0.14,0.9
 Ni no Kuni II: Revenant Kingdom,2018,Role-Playing,Namco Bandai Games,0.33,0.31,0.12,0.13,0.89
-God of War III,2015,"Action, Adventure",Sony Computer Entertainment,0.4,0.33,0.02,0.15,0.89
-Fortnite,2017,"Action, Adventure",Gearbox Software,0.42,0.32,0,0.15,0.89
-LEGO Harry Potter Collection,2016,"Action, Adventure",Warner Bros. Interactive Entertainment,0.07,0.68,0,0.13,0.88
+God of War III,2015,"Action, Adventure, Shooter",Sony Computer Entertainment,0.4,0.33,0.02,0.15,0.89
+Fortnite,2017,"Action, Adventure, Shooter",Gearbox Software,0.42,0.32,0,0.15,0.89
+LEGO Harry Potter Collection,2016,"Action, Adventure, Shooter",Warner Bros. Interactive Entertainment,0.07,0.68,0,0.13,0.88
 Minecraft: Story Mode,2015,Adventure,Mojang,0.31,0.42,0,0.14,0.87
 BioShock The Collection,2016,"Action, Shooter",2K Games,0.41,0.28,0.03,0.14,0.86
 Thief 4,2014,"Action, Adventure",Square Enix,0.28,0.41,0.03,0.13,0.85
@@ -162,8 +162,8 @@ Farming Simulator 17,2016,Simulation,Focus Home Interactive,0.19,0.52,0.01,0.13,
 The Crew 2,2018,Racing,Ubisoft,0.22,0.42,0.05,0.12,0.82
 Pro Evolution Soccer 2016,2015,"Sports, Action",Konami Digital Entertainment,0.14,0.43,0.14,0.1,0.82
 ARK: Survival Evolved,2017,"Action, Adventure",Studio Wildcard,0.28,0.29,0.14,0.11,0.81
-Dragon Quest Heroes: The World's Tree Woe and the Blight Below,2015,"Action, Adventure",Square Enix,0.21,0.14,0.39,0.07,0.81
-Assassin's Creed The Ezio Collection,2016,"Action, Adventure",Ubisoft,0.14,0.52,0.02,0.12,0.79
+Dragon Quest Heroes: The World's Tree Woe and the Blight Below,2015,"Action, Adventure, Shooter",Square Enix,0.21,0.14,0.39,0.07,0.81
+Assassin's Creed The Ezio Collection,2016,"Action, Adventure, Shooter",Ubisoft,0.14,0.52,0.02,0.12,0.79
 Final Fantasy XIV: A Realm Reborn,2014,MMO,Square Enix,0.35,0.23,0.08,0.12,0.79
 Destiny: The Collection,2016,"Action, Shooter",Activision,0.24,0.4,0.02,0.12,0.78
 F1 2016 (Codemasters),2016,Racing,Codemasters,0.07,0.56,0.03,0.11,0.78
@@ -171,13 +171,13 @@ Hitman (2016),2017,"Action, Adventure",Square Enix,0.24,0.36,0.06,0.11,0.78
 Pro Evolution Soccer 2015,2014,"Sports, Action",Konami Digital Entertainment,0.09,0.45,0.12,0.1,0.76
 LEGO City Undercover,2017,Platform,Warner Bros. Interactive Entertainment,0.17,0.46,0.01,0.12,0.75
 Pro Evolution Soccer 2018,2017,"Sports, Action",Konami Digital Entertainment,0.12,0.36,0.19,0.09,0.75
-Disney Infinity 2.0: Marvel Super Heroes,2014,Action-Adventure,Disney Interactive Studios,0.37,0.25,0,0.13,0.75
+Disney Infinity 2.0: Marvel Super Heroes,2014,"Action, Adventure, Shooter",Disney Interactive Studios,0.37,0.25,0,0.13,0.75
 Pro Evolution Soccer 2017,2016,"Sports, Action",Konami Digital Entertainment,0.08,0.41,0.18,0.09,0.75
 Sniper Elite 3,2014,"Action, Shooter",505 Games,0.25,0.37,0,0.12,0.74
 MLB 14 The Show,2014,"Sports, Action",Sony Computer Entertainment,0.59,0,0,0.14,0.73
 WipEout Omega Collection,2017,Racing,Sony Interactive Entertainment,0.12,0.49,0,0.11,0.72
 Deus Ex: Mankind Divided,2016,Role-Playing,Square Enix,0.25,0.34,0.01,0.12,0.72
-The LEGO Movie Videogame,2014,Action-Adventure,Warner Bros. Interactive Entertainment,0.26,0.32,0.01,0.11,0.71
+The LEGO Movie Videogame,2014,"Action, Adventure, Shooter",Warner Bros. Interactive Entertainment,0.26,0.32,0.01,0.11,0.71
 Marvel vs. Capcom: Infinite,2017,Fighting,Capcom,0.36,0.19,0.04,0.11,0.7
 Dark Souls II,2015,Role-Playing,Namco Bandai Games,0.27,0.23,0.09,0.1,0.69
 Yakuza 6,2016,Adventure,Sega,0.16,0.1,0.38,0.05,0.69
@@ -189,9 +189,9 @@ Plants vs Zombies: Garden Warfare,2014,"Action, Shooter",Electronic Arts,0.24,0.
 Tales of Berseria,2016,Role-Playing,Namco Bandai Games,0.22,0.1,0.26,0.07,0.65
 Yakuza Zero: The Place of Oath,2015,Adventure,Sega,0.22,0.16,0.19,0.08,0.65
 One Piece: Burning Blood,2016,Fighting,Namco Bandai Games,0.21,0.26,0.09,0.09,0.65
-Batman: Return to Arkham,2016,"Action, Adventure",Warner Bros. Interactive Entertainment,0.15,0.39,0.01,0.1,0.64
+Batman: Return to Arkham,2016,"Action, Adventure, Shooter",Warner Bros. Interactive Entertainment,0.15,0.39,0.01,0.1,0.64
 Plants vs. Zombies: Garden Warfare 2,2016,"Action, Shooter",Electronic Arts,0.22,0.31,0,0.1,0.63
-LEGO The Hobbit,2014,Action-Adventure,Warner Bros. Interactive Entertainment,0.14,0.39,0,0.1,0.62
+LEGO The Hobbit,2014,"Action, Adventure, Shooter",Warner Bros. Interactive Entertainment,0.14,0.39,0,0.1,0.62
 World of Final Fantasy,2016,Role-Playing,Square Enix,0.24,0.21,0.09,0.09,0.62
 F1 2017,2017,Racing,Koch Media,0.04,0.47,0.02,0.09,0.62
 NHL 15,2014,"Sports, Action",EA Sports,0.32,0.19,0,0.11,0.62
@@ -200,12 +200,12 @@ L.A. Noire,2017,Adventure,Rockstar Games,0.18,0.32,0,0.1,0.6
 Hidden Agenda,2017,Adventure,Sony Interactive Entertainment,0.08,0.42,0,0.09,0.59
 Call of Duty: Modern Warfare Remastered,2017,Shooter,Activision,0.17,0.3,0.03,0.09,0.58
 Dragon Quest Builders: Revive Alefgard,2016,Role-Playing,Square Enix,0.12,0.17,0.24,0.06,0.58
-The Lego Ninjago Movie Videogame,2017,"Action, Adventure",Warner Bros. Interactive Entertainment,0.16,0.32,0,0.09,0.57
+The Lego Ninjago Movie Videogame,2017,"Action, Adventure, Shooter",Warner Bros. Interactive Entertainment,0.16,0.32,0,0.09,0.57
 Resident Evil: Revelations 2,2015,"Action, Adventure",Capcom,0.14,0.25,0.11,0.07,0.57
 Rock Band 4,2015,Music,Harmonix Music Systems,0.41,0.06,0,0.1,0.57
 NHL 18,2017,"Sports, Action",EA Sports,0.31,0.16,0,0.1,0.57
 Everybody's Golf,2017,"Sports, Action",Sony Interactive Entertainment,0.12,0.22,0.17,0.06,0.56
-The Amazing Spider-Man 2 (2014),2014,Action-Adventure,Activision,0.2,0.26,0.02,0.09,0.56
+The Amazing Spider-Man 2 (2014),2014,"Action, Adventure",Activision,0.2,0.26,0.02,0.09,0.56
 DOOM VFR,2017,Shooter,Bethesda Softworks,0.22,0.25,0,0.09,0.56
 Sonic Forces,2017,Platform,Sega,0.15,0.31,0.01,0.09,0.56
 Kingdom Come: Deliverance,2018,Role-Playing,Deep Silver,0.18,0.28,0,0.09,0.56
@@ -222,8 +222,8 @@ Attack on Titan (KOEI),2016,Action,Tecmo Koei,0.08,0.24,0.12,0.06,0.5
 DiRT 4,2017,Racing,Codemasters,0.1,0.3,0.02,0.07,0.49
 Farpoint,2017,Shooter,Sony Interactive Entertainment,0,0.38,0.04,0.06,0.48
 Battleborn,2016,Shooter,2K Games,0.25,0.12,0.03,0.08,0.48
-A Way Out,2018,"Action, Adventure",Electronic Arts,0.23,0.16,0,0.08,0.48
-Friday the 13th: The Game,2017,"Action, Adventure",Gun Media,0.29,0.09,0.03,0.08,0.48
+A Way Out,2018,"Action, Adventure, Shooter",Electronic Arts,0.23,0.16,0,0.08,0.48
+Friday the 13th: The Game,2017,"Action, Adventure, Shooter",Gun Media,0.29,0.09,0.03,0.08,0.48
 The Walking Dead: A Telltale Games Series,2014,Adventure,Telltale Games,0.12,0.26,0.03,0.07,0.48
 Wolfenstein: The Old Blood,2015,Shooter,Bethesda Softworks,0.13,0.25,0.02,0.07,0.48
 Deadpool,2015,"Action, Adventure",Activision,0.26,0.13,0,0.08,0.47
@@ -232,7 +232,7 @@ TrackMania Turbo,2016,Racing,Ubisoft,0.04,0.35,0,0.07,0.47
 Knack 2,2017,Platform,Sony Interactive Entertainment,0.14,0.25,0.01,0.07,0.47
 Just Dance 2014,2013,Music,Ubisoft,0.21,0.18,0,0.08,0.47
 Dissidia Final Fantasy NT,2018,Fighting,Square Enix,0.19,0.06,0.16,0.05,0.46
-Skylanders: SuperChargers,2015,Action-Adventure,Activision,0.29,0.09,0,0.08,0.45
+Skylanders: SuperChargers,2015,"Action, Adventure",Activision,0.29,0.09,0,0.08,0.45
 Yakuza Kiwami,2016,Adventure,Sega,0.13,0.07,0.21,0.04,0.45
 Tales of Zestiria,2015,Role-Playing,Namco Bandai Games,0.18,0.16,0.04,0.07,0.45
 Star Ocean 5: Integrity and Faithlessness,2016,Role-Playing,Square Enix,0.1,0.13,0.16,0.05,0.45
@@ -251,7 +251,7 @@ Batman: Arkham VR,2016,"Action, Adventure",Warner Bros. Interactive Entertainmen
 Little Nightmares,2017,Platform,Namco Bandai Games,0.18,0.12,0.02,0.06,0.39
 Tropico 5,2015,Simulation,Kalypso Media,0.07,0.18,0.08,0.05,0.38
 Life is Strange,2016,Adventure,Square Enix,0.11,0.16,0.05,0.05,0.37
-Resident Evil Zero,2016,Action-Adventure,Capcom,0.07,0.18,0.07,0.05,0.37
+Resident Evil Zero,2016,"Action, Adventure",Capcom,0.07,0.18,0.07,0.05,0.37
 Yakuza Kiwami 2,2017,"Action, Adventure",Sega,0.08,0.06,0.19,0.03,0.37
 Vampyr,2018,Role-Playing,Focus Home Interactive,0.12,0.19,0,0.06,0.37
 Okami,2017,Action,Capcom,0.16,0.12,0.03,0.06,0.36
@@ -260,13 +260,13 @@ Hokuto ga Gotoku,2018,"Action, Adventure",Sega,0.09,0.05,0.18,0.03,0.36
 Sword Art Online: Lost Song,2015,Role-Playing,Namco Bandai Games,0.19,0.11,0,0.06,0.36
 Disgaea 5: Alliance of Vengeance,2015,Role-Playing,NIS America,0.15,0.08,0.07,0.05,0.35
 Dead or Alive 5,2015,Fighting,Tecmo Koei,0.09,0.13,0.09,0.04,0.35
-Gravity Rush 2,2017,Action-Adventure,Sony Interactive Entertainment,0.13,0.05,0.13,0.04,0.35
+Gravity Rush 2,2017,"Action, Adventure",Sony Interactive Entertainment,0.13,0.05,0.13,0.04,0.35
 Odin Sphere: Leifthrasir,2016,Role-Playing,NIS America,0.14,0.07,0.09,0.04,0.34
 Divinity: Original Sin,2015,Role-Playing,Focus Home Interactive,0.13,0.13,0.04,0.05,0.34
 The King of Fighters XIV,2016,Fighting,Deep Silver,0.21,0.02,0.06,0.05,0.34
 Dishonored: Death of the Outsider,2017,"Action, Adventure",Bethesda Softworks,0.1,0.18,0,0.05,0.33
 Valkyria Chronicles,2016,Role-Playing,Sega,0.14,0.08,0.08,0.04,0.33
-Murdered: Soul Suspect,2014,Action-Adventure,Square Enix,0.09,0.17,0.02,0.05,0.33
+Murdered: Soul Suspect,2014,"Action, Adventure",Square Enix,0.09,0.17,0.02,0.05,0.33
 Payday 2,2015,Shooter,505 Games,0.12,0.14,0,0.05,0.32
 UEFA Euro 2016,2016,"Sports, Action",Konami Digital Entertainment,0,0.22,0.05,0.04,0.31
 DmC: Devil May Cry,2015,"Action, Adventure",Capcom,0.12,0.13,0,0.05,0.31
@@ -292,8 +292,8 @@ Secret of Mana,2018,Role-Playing,Square Enix,0.06,0.12,0.05,0.04,0.28
 Gundam Versus,2017,Action,Namco Bandai Games,0.08,0,0.18,0.02,0.28
 NBA Live 14,2013,"Sports, Action",EA Sports,0.17,0.05,0,0.05,0.27
 Bravo Team VR,2018,Shooter,Sony Interactive Entertainment,0.12,0.09,0.02,0.04,0.27
-Killing Floor 2ï¿½,2016,Shooter,Tripwire Interactive,0.19,0.03,0,0.05,0.27
-Robinson: The Journey,2016,Action-Adventure,Sony Interactive Entertainment,0.14,0.09,0,0.05,0.27
+Killing Floor 2Ê,2016,Shooter,Tripwire Interactive,0.19,0.03,0,0.05,0.27
+Robinson: The Journey,2016,"Action, Adventure",Sony Interactive Entertainment,0.14,0.09,0,0.05,0.27
 DriveClub VR,2016,Racing,Sony Interactive Entertainment,0.12,0.09,0.01,0.04,0.27
 Fate/Extella: The Umbral Star,2016,Action,PQube,0.12,0,0.12,0.03,0.27
 Ultimate Marvel vs. Capcom 3,2017,Fighting,Capcom,0.19,0,0.02,0.04,0.26
