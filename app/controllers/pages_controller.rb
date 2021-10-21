@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
   before_action :set_page, only: %i[edit update destroy]
-  http_basic_authenticate_with name: "haris", password: "Password01!", except: [:show]
+  http_basic_authenticate_with name: "haris", password: "Password01!", except: [:permalink]
 
   # GET /pages or /pages.json
   def index
