@@ -8,4 +8,9 @@ class GamesController < ApplicationController
   def show
     @game = Game.find(params[:id])
   end
+
+  def search
+    wildcard_search = "%#{params[:keywords]}%"
+    @games = Game.where("name LIKE ?", wildcard_search)
+  end
 end

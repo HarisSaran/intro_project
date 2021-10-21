@@ -11,7 +11,13 @@ Rails.application.routes.draw do
   # to populate the games index with info go to games controler INDEX!
   root to: "home#index"
 
-  resources :games, only: %i[index show]
+  resources :games, only: %i[index show] do
+    collection do
+      get "search"
+    end
+  end
+
+  # resources :games, only: %i[index show]
 
   resources :publisher_companies, only: %i[index show]
 end
