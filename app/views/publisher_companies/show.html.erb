@@ -2,11 +2,16 @@
 
 <h2 class="title is-2"><%= @publisher_company.name%></h2>
 
-<p class='mb-5'>
+<p class='mb-5 box'>
   <%= @publisher_company.name%> created <%= @publisher_company.games.count %> of the top games sold this year
 </p>
 
-<h3 class='title is-3'> Games made by <%= @publisher_company.name%></h3>
+<h3 class='title is-3 box'> Games made by <%= @publisher_company.name%></h3>
+<%# <div class="bulma-clearfix-mixin">
+  <img height="80" width="80" style="float: left;" src="https://source.unsplash.com/La2kOu2dmH4/160x160">
+  <p>This is a short image description.</p>
+</div> %>
+
   <ul>
 
   <%# we can also use render partial for publisher companies here for a different look %>
