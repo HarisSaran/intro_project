@@ -9,6 +9,8 @@
 require "csv"
 
 Page.delete_all
+GameGenre.delete_all
+Genre.delete_all
 Game.delete_all
 PublisherCompany.delete_all
 
@@ -29,7 +31,19 @@ games.each do |m|
       year:                m["Year"],
       north_america_sales: m["North America"]
     )
-    puts "Game invalid #{m['Game']}" unless game&.valid?
+    # puts "Game invalid #{m['Game']}" unless game&.valid?
+    if game&.valid?
+      # takes everything turns it into a collection and strips out the spaces by ,
+      # loop through it, if it exists grab it, otherwise create it!...
+      genres = m["Genre"].split(",").map(&:strip)
+      genres.each do |g_name|
+        genre = Genre.find_or_create_by(name: g_name)
+        GameGenre.create(game: game, genre: genre)
+      end
+
+    else
+      puts "Game invalid #{m['Game']}"
+    end
 
   else
     puts "Not Valid Publisher company, #{m['Publisher']} for the game #{m['Game']}"
@@ -50,3 +64,5 @@ Page.create(
 
 puts "publisher comps : #{PublisherCompany.count}"
 puts "games comps : #{Game.count}"
+puts "Genre count #{Genre.count}"
+puts "Game Genre count #{GameGenre.count}"
