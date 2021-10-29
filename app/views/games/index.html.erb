@@ -15,6 +15,7 @@
           <img src="https://assets1.ignimgs.com/2021/04/22/playstation-studios-1619090080230_160w.jpg?width=1280">
       </figure>
 
+       <%= will_paginate @games %>
        <%= render partial: @games, locals: {show_link: true} %>
     <%# ------------------------------------------- %>
   <%# </section>
